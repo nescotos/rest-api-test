@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-test",
+  "version": "1.0.0",
+  "description": "REST API for training purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestor94/rest-api-test.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node",
+    "express",
+    "http"
+  ],
+  "author": "Néstor Escoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestor94/rest-api-test/issues"
+  },
+  "homepage": "https://github.com/nestor94/rest-api-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
