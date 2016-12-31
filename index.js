@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var app = express();
+var cors = require('cors');
 var config = require('./config');
 var DOGS = [{
     name: 'Rocky',
@@ -25,6 +26,7 @@ var DOGS = [{
     id: 5
 }]
 app.use(morgan('dev'));
+app.use(cors());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
